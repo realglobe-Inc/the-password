@@ -77,6 +77,13 @@ Usage
 const thePassword = require('the-password')
 
 async function tryExample () {
+  const {generateSalt, generatePassword, digest} = thePassword()
+
+  const salt = generateSalt()
+  const password = generatePassword()
+
+  const passwordHash = digest(password, salt)
+  /* ... */
 
 }
 
