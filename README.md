@@ -77,7 +77,7 @@ Usage
 const thePassword = require('the-password')
 
 async function tryExample () {
-  const {generateSalt, generatePassword, digest} = thePassword()
+  const {generateSalt, generatePassword, digest} = thePassword
 
   const salt = generateSalt()
   const password = generatePassword()
@@ -101,7 +101,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-password@1.0.0](./doc/api/api.md)
++ [the-password@1.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-password-function-create)
   + [ThePassword](./doc/api/api.md#the-password-class)
 
