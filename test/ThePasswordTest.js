@@ -21,7 +21,7 @@ describe('the-password', () => {
 
     const salt = generateSalt()
     const password = generatePassword()
-
+    ok(digest(password, salt))
     equal(digest(password, salt), digest(password, salt))
   })
 })
