@@ -4,14 +4,14 @@
 
 'use strict'
 
-const { test } = require('the-templates')
+const {test} = require('the-templates')
 
 module.exports = test({
   src: [
     `${__dirname}/../lib/**/*.js`
   ],
   dest: __dirname,
-  node: true
+  cjs: true
 })
 
 if (!module.parent) {

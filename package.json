@@ -1,7 +1,7 @@
 {
   "name": "the-password",
   "description": "Password util for the-framework",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishinishi@gmail.com",
