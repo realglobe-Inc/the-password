@@ -101,7 +101,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-password@2.0.0](./doc/api/api.md)
++ [the-password@3.0.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-password-function-create)
   + [ThePassword](./doc/api/api.md#the-password-class)
 

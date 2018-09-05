@@ -1,4 +1,4 @@
-# the-password@2.0.0
+# the-password@3.0.0
 
 Password util for the-framework
 
