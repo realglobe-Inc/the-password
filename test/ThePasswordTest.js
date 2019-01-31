@@ -5,7 +5,7 @@
 'use strict'
 
 const ThePassword = require('../lib/ThePassword')
-const {ok, equal} = require('assert')
+const { ok, equal } = require('assert')
 
 describe('the-password', () => {
   before(() => {
@@ -17,7 +17,7 @@ describe('the-password', () => {
   it('Do test', () => {
     ok(ThePassword)
 
-    const {generateSalt, generatePassword, digest} = new ThePassword()
+    const { generateSalt, generatePassword, digest } = new ThePassword()
 
     const salt = generateSalt()
     const password = generatePassword()
